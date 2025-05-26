@@ -1,0 +1,50 @@
+:root {
+  --color-branco: #FFFFFF;
+  --color-branco-neve: #F5F5F5;
+  --color-cinza-escuro: #CBCBCB;
+  --color-fundo-principal: #DFE7F4;
+  --color-preto: #000000;
+  --color-azul-escuro: #003366;
+  --color-azul-claro: #66A3FF;
+  --color-erro: #F64F51;
+  --color-sucesso: #68E168;
+  --color-gradiente-azul-claro-fim: #66A3FF;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  /* Azul */
+  --color-azul-escuro: #003366;
+  --color-azul-botao: #5b90ff;
+  --color-azul-claro: #66A3FF;
+  --color-gradiente-azul-claro-inicio: #FFFFFF;
+  --color-gradiente-azul-claro-fim: #66A3FF;
+  --color-fundo-principal: #DFE7F4;
+
+  /* Gráficos */
+  --color-azul-grafico: #2567F9;
+  --color-roxo-grafico: #8F3CFF;
+  --color-magenta-grafico: #FF2E7A;
+
+  /* Neutros */
+  --color-branco: #FFFFFF;
+  --color-preto: #000000;
+  --color-cinza-claro: #E9E9E9;
+
+  /* Status */
+  --color-erro: #F64F51;
+  --color-sucesso: #68E168;
+}
+
+.bg-gradiente-azul {
+  background: linear-gradient(var(--color-gradiente-azul-claro-inicio), var(--color-gradiente-azul-claro-fim));
+}
