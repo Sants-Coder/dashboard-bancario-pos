@@ -31,11 +31,28 @@ Projeto desenvolvido como parte da pós-graduação em Front-End Engineer, com f
 
 ## 📸 Demonstração
 
-> 💡 Você pode adicionar aqui prints de tela ou gifs demonstrando:
->
-> - 📱 Versão mobile com cartões visíveis
-> - 💻 Visualização completa no desktop com colunas ativas
-> - 🧊 Animações nos modais de configuração e bloqueio
+### 💻 Layout Desktop
+
+> Tela com colunas e aba "Outros Serviços" ativa.
+
+![Layout Desktop](./public/desktop-servicos.png)
+
+---
+
+### 📱 Layout Mobile
+
+> Visualização compacta com cartões digitais e físicos.
+
+![Layout Mobile](./public/mobile-cartoes.png)
+
+---
+
+### 🧊 Interação com Cartões
+
+> Modal animado ao bloquear ou configurar um cartão.
+
+![Modal Cartão](./public/modal-cartao.gif)
+
 
 ---
 
